@@ -1029,6 +1029,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
         <spark.scala-2.12.version>3.2.0</spark.scala-2.12.version>
         <spark.scala-2.11.version>2.4.5</spark.scala-2.11.version>
         <spark.version>${spark.scala-2.11.version}</spark.version>
+        <scala-2.12.version>2.12.15</scala-2.12.version>
         <netty.spark-2.12.version>
         4.1.47.Final</netty.spark-2.12.version>
         <netty.spark-2.11.version>
