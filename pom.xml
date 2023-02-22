@@ -79,7 +79,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
   </mailingLists>
   <properties>
     <asynchttpclient.version>2.10.1</asynchttpclient.version>
-    <hadoop.version>3.3.1</hadoop.version>
+    <hadoop.version>3.3.4</hadoop.version>
     <hadoop.scope>compile</hadoop.scope>
     <spark.scala-2.11.version>2.4.5</spark.scala-2.11.version>
     <spark.scala-2.12.version>3.2.0</spark.scala-2.12.version>
@@ -1044,8 +1044,8 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
         <json4s.version>
         ${json4s.spark-2.11.version}</json4s.version>
         <spark.bin.download.url>
-        https://archive.apache.org/dist/spark/spark-3.2.0/spark-3.2.0.tgz</spark.bin.download.url>
-        <spark.bin.name>spark-3.2.0</spark.bin.name>
+        https://archive.apache.org/dist/spark/spark-3.3.1/spark-3.3.1.tgz</spark.bin.download.url>
+        <spark.bin.name>spark-3.3.1</spark.bin.name>
         <kubernetes.client.version>
         4.10.3</kubernetes.client.version>
         <jackson.version>2.10.3</jackson.version>
