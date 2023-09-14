@@ -82,9 +82,9 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
     <hadoop.version>3.3.4</hadoop.version>
     <hadoop.scope>compile</hadoop.scope>
     <spark.scala-2.11.version>2.4.5</spark.scala-2.11.version>
-    <spark.scala-2.12.version>3.2.0</spark.scala-2.12.version>
+    <spark.scala-2.12.version>3.5.0</spark.scala-2.12.version>
     <spark.version>${spark.scala-2.12.version}</spark.version>
-    <kubernetes.client.version>4.6.4</kubernetes.client.version>
+    <kubernetes.client.version>6.7.2</kubernetes.client.version>
     <hive.version>3.0.0</hive.version>
     <commons-codec.version>1.9</commons-codec.version>
     <commons-lang.version>2.6</commons-lang.version>
@@ -1038,9 +1038,9 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
         <json4s.spark-2.11.version>3.5.3</json4s.spark-2.11.version>
         <json4s.spark-2.12.version>3.7.0-M11</json4s.spark-2.12.version>
         <json4s.version>${json4s.spark-2.11.version}</json4s.version>
-        <spark.bin.download.url>https://archive.apache.org/dist/spark/spark-3.4.1/spark-3.4.1.tgz</spark.bin.download.url>
-        <spark.bin.name>spark-3.4.1</spark.bin.name>
-        <kubernetes.client.version>6.4.1</kubernetes.client.version>
+        <spark.bin.download.url>https://archive.apache.org/dist/spark/spark-3.5.0/spark-3.5.0.tgz</spark.bin.download.url>
+        <spark.bin.name>spark-3.5.0</spark.bin.name>
+        <kubernetes.client.version>6.7.2</kubernetes.client.version>
         <jackson.version>2.10.3</jackson.version>
       </properties>
     </profile>

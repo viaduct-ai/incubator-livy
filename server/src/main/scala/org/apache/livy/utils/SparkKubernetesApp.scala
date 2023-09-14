@@ -554,7 +554,7 @@ private[utils] class LivyKubernetesClient(
     ) ++ additionalAnnotations
 
     val builder = new IngressBuilder()
-      .withApiVersion("extensions/v1beta1")
+      .withApiVersion("extensions/v1")
       .withNewMetadata()
       .withName(fixResourceName(s"${app.getApplicationPod.getMetadata.getName}-ui"))
       .withNamespace(app.getApplicationNamespace)
